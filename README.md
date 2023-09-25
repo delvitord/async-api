@@ -3,7 +3,6 @@ Repository ini menampung hasil pengerjaan untuk menyelesaikan study case async A
 
 # Case Study Description :: Asynchronous API
 
-```text
 
 ![Technology - Spring Boot](https://img.shields.io/badge/Technology-Spring_Boot-blue)
 ![Tracing Difficulty - None](https://img.shields.io/badge/Tracing_Difficulty-None-blue)
@@ -60,7 +59,8 @@ Finished Signal -------------> Result Request
 
 The long running API main call is now could responds within seconds, and the response could be fetched another time in the future.
 
-```
 # Yang Telah Kelompok Kami Lakukan
 
-Blabla
+- Kami telah mengimplementasikan Async API pada study case kami dengan mekanisme Polling Model
+- Ketika /start, program akan generate dan segera menampilkan processId. Lalu ketika /poll/{processId}, jika program belum selesai generate randomUUID sejumlah yang dituliskan pada code, maka program akan mengeluarkan status "Sedang Diproses...".
+- Kami telah mendeploy hasil pekerjaan kami ke dalam Virtual Machine.
